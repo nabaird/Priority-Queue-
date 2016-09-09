@@ -111,30 +111,4 @@ void PQ::Read()
     }
 }
 
-int main()
-{
-    PQ p(3);
 
-    p.Insert(6);
-        p.Insert(2);
-            p.Insert(19);
-                p.Insert(20);
-                  p.Insert(10);
-                    p.Insert(144);
-                      p.Insert(11);
-                        p.Insert(67);
-                          p.Insert(111);
-                            p.Insert(909);
-                              p.Insert(15);
-                                p.Insert(13);
-                                p.DeleteMin();
-                                 p.DeleteMin();
-                                   p.DeleteMin();
-                                   p.DeleteMin();
-                                                                      p.DeleteMin();
-
-                p.Read();
-
-
-
-}
